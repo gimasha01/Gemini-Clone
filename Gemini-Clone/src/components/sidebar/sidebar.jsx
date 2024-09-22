@@ -1,20 +1,17 @@
 import React from 'react'
-import './sidebar.css'
+import './Sidebar.css'
 import {assets} from '../../assets/assets'
 
-const sidebar = () => {
+const Sidebar = () => {
   return (
-    <div classname='sidebar'>
+    <div className='sidebar'>
         <div className="top">
             <img className='menu' src={assets.menu_icon} alt="" />
-            
             <div className="new-chat">
                 <img src={assets.plus_icon} alt="" />
                 <p>New Chat</p>
             </div>
-
         </div>
-
         <div className="bottom">
 
         </div>
@@ -23,4 +20,4 @@ const sidebar = () => {
   )
 }
 
-export default sidebar
+export default Sidebar

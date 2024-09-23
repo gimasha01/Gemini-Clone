@@ -9,6 +9,14 @@ const Main = () => {
             <p>Gemini</p>
             <img src={assets.user_icon} alt="" />
         </div>
+        <div className="main-container">
+            <div className="greet">
+                <p><span>Hello, Dev.</span></p>
+                <p>How can I help You?</p>
+            </div>
+
+        </div>
+
 
 
     </div>

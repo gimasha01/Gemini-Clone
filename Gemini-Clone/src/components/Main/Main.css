@@ -72,3 +72,12 @@
 .main .card:hover{
     background-color: #dfe4ea;
 }
+
+.main-bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    max-width: 900px;
+    padding: 0px 20px;
+    margin: auto;
+}

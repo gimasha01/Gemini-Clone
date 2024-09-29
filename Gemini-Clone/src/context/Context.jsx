@@ -18,7 +18,6 @@ const ContextProvider = (props) => {
        await runChat(input)
     }
 
-    onSent("what is react js")
 
     const contextValue = {
         prevPrompts,

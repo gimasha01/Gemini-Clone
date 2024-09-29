@@ -15,7 +15,7 @@ const ContextProvider = (props) => {
 
 
     const onSent = async (prompt) =>{
-       await runChat(prompt)
+       await runChat(input)
     }
 
     onSent("what is react js")
@@ -31,7 +31,6 @@ const ContextProvider = (props) => {
         resultData,
         input,
         setInput,
-        newChat
     }
 
     return(

@@ -15,11 +15,14 @@ const ContextProvider = (props) => {
 
 
     const onSent = async (prompt) =>{
-        
+
         setResultData("")
         setLoading(true)
         setShowResult(true)
-        await runChat(input)
+        const response = await runChat(input)
+        setResultData(response)
+        setLoading(false)
+        setInput("")
     }
 
 

@@ -50,7 +50,9 @@ const Main = () => {
                 </div>
                 <div className="result-data">
                     <img src={assets.gemini_icon} alt=""/>
-                    <p dangerouslySetInnerHTML={{__html:resultdata}}></p>
+                    <p dangerouslySetInnerHTML={{__html:resultdata}}>
+                    
+                    </p>
                 </div>
 
 

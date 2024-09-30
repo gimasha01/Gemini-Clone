@@ -46,8 +46,13 @@ const Main = () => {
             :<div className='result'>
                 <div className="result-title">
                     <img src={assets.user_icon} alt="" />
-                    <p>{recentPrompt</p>
+                    <p>{recentPrompt}</p>
                 </div>
+                <div className="result-data">
+                    <img src={assets.gemini_icon} alt=""/>
+                    <p dangerouslySetInnerHTML={{__html:resultdata}}></p>
+                </div>
+
 
              </div>
             }

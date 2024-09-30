@@ -14,7 +14,10 @@ const Main = () => {
             <img src={assets.user_icon} alt="" />
         </div>
         <div className="main-container">
-            <div className="greet">
+
+            {!showResult
+            ?<>
+             <div className="greet">
                 <p><span>Hello, Gimasha.</span></p>
                 <p>How can I help You?</p>
             </div>
@@ -39,6 +42,17 @@ const Main = () => {
                     <img src={assets.code_icon} alt="" className="" />
                 </div>
             </div>
+            </>
+            :<div className='result'>
+                <div className="result-title">
+                    <img src={assets.user_icon} alt="" />
+                    <p>{recentPrompt</p>
+                </div>
+
+             </div>
+            }
+
+
 
             <div className="main-bottom">
                 <div className="search-box">

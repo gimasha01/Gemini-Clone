@@ -5,7 +5,7 @@ import { Context } from '../../context/Context'
 
 const Main = () => {
 
-    const {onSent,recentPrompt,showResult,loading,resultdata,setInput,input} = useContext(Context)
+    const {onSent,recentPrompt,showResult,loading,resultData,setInput,input} = useContext(Context)
     
   return (
     <div className='main'>
@@ -57,7 +57,7 @@ const Main = () => {
                         <hr />
                         <hr />
                     </div>
-                    :<p dangerouslySetInnerHTML={{__html:resultdata}}>
+                    :<p dangerouslySetInnerHTML={{__html:resultData}}>
                     </p>
                     }
                 </div>
